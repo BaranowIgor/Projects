@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+}
+
+.navbar {
+  position:fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.feature > * {
+  text-align: center;
+}
+
+.title {
+  font-size: 1.6em;
+}
+
+.description {
+  font-size: 1.2em;
+}
+
+.projects-description {
+  text-align: center;
+}
+
+.project-box {
+  text-align: center;
+}
+
+
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.project-description {
+  margin-top: 20px;
+  letter-spacing: 0.5px;
+  line-height: 1.7;
+}
+
+.project-img img {
+  width: 350px;
+}
+
+.project-box {
+  padding: 50px 0;
+}
+
+.project-box li {
+  text-align: left;
+}
+
+.project-solver img {
+  width: 150px;
+}
+
+
+.footer {
+  text-align: center;
+}
+
+.footer img {
+  width: 30px;
+  margin: 5px;
+}
+
+.footer .rights {
+  margin-top: 50px;
+}
+
+
+@media (min-width: 768px) {
+  .project {
+    flex-direction: row;
+    justify-content:left;
+    gap: 30px;
+  }
+
+  .project-box h3 {
+    margin-bottom: 40px;
+  }
+
+  .calculator .project-description {
+    padding-top: 100px;
+    text-align: left;
+
+  }
+
+  .reduced-transportation img {
+    width: 450px;
+  }
+
+  .project-documentation .project-description {
+    padding-top: 50px;
+    text-align: left;
+    order: 1;
+  } 
+
+  .project-warehous img {
+    width: 550px;
+  }
+
+  .project-optimizationOfLoading .project-description {
+    order: 1;
+    text-align: left;
+    padding-top: 20px;
+  }
+
+  .project-companyInSlovenia img {
+    width: 550px;
+  }
+
+  .project-timeTravel .project-description {
+    order: 1;
+    text-align: left;
+  }
+
+  .project-timeTravel img {
+    width: 800px;
+  }
+
+  .project-flexsim img {
+    width: 700px;
+  }
+
+  .project-bpmn .project-description {
+    order: 1;
+    text-align: left;
+  }
+
+  .project-bpmn img {
+    width: 700px;
+  }
+
+  .project-solver img {
+    width: 300px;
+  }
+
+  .project-map .project-description {
+    order: 1;
+    text-align: left;
+  }
+
+  .project-marketing img {
+    width: 450px;
+  }
+
+
+
+  
+
+
+
+
+
+
+
+}
+  
+
